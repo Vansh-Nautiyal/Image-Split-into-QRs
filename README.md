@@ -9,9 +9,19 @@ This Python project allows you to split an image into quadrants, encode each qua
 ```
 project-folder/
 │
-├─ Splitting_into_QR_Code.py   # Splits image and encodes quadrants as QR codes
-├─ Reconstruction.py           # Decodes QR codes and reconstructs the original image
-└─ README.md                   # Project documentation
+├─ README.md
+├─ src/
+│   ├─ Splitting_into_QR_Code.py
+│   └─ Reconstruction.py
+└─ images/
+    ├─ example_input.png
+    ├─ reconstructed_example.png
+    └─ qr_codes/
+        ├─ qr1.png
+        ├─ qr2.png
+        ├─ qr3.png
+        └─ qr4.png
+
 ```
 
 ---
@@ -74,15 +84,15 @@ python Reconstruction.py --input_folder qr_codes/ --output reconstructed_image.p
 
 1. Input Image:
 
-![example input](example_input.png)
+![example input](Images/landscape.png)
 
 2. Generated QR Codes:
 
-![QR codes](qr_codes_example.png)
+![QR codes](images/QR%20Codes/part_1.png)
 
 3. Reconstructed Image:
 
-![reconstructed image](reconstructed_example.png)
+![reconstructed image](Images/reconstructed_image.png)
 
 ---
 
@@ -96,5 +106,6 @@ Feel free to fork this repository and submit pull requests for improvements, suc
 ---
 
 ## License
+
 
 This project is licensed under the MIT License. See `LICENSE` for details.
