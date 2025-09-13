@@ -110,7 +110,7 @@ These QR Codes contain the image data in base64 string form. You can use a base6
 Feel free to fork this repository and submit pull requests for improvements, such as:
 - Supporting more quadrants (e.g., 9 or 16 pieces)
 - Error correction for QR code decoding
-- Command-line argument enhancements
+- Expanding this project to work on higher quality images
 
 ---
 
@@ -118,6 +118,7 @@ Feel free to fork this repository and submit pull requests for improvements, suc
 
 
 This project is licensed under the MIT License. See `LICENSE` for details.
+
 
 
 
