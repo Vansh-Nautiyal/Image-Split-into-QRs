@@ -92,11 +92,12 @@ python Reconstruction.py --input_folder qr_codes/ --output reconstructed_image.p
 
 <p float="left">
   <img src="Images/QR%20Codes/part_1.png" width="100" />
-  <img src="Images/QR%20Codes/part_2.pn" width="100" />
-  <img src="Images/QR%20Codes/part_3.pn" width="100" />
-  <img src="Images/QR%20Codes/part_4.pn" width="100" />
+  <img src="Images/QR%20Codes/part_2.png" width="100" />
+  <img src="Images/QR%20Codes/part_3.png" width="100" />
+  <img src="Images/QR%20Codes/part_4.png" width="100" />
 </p>
 
+These QR Codes contain the image data in base64 string form. You can use a base64 to image decoder tool to visualize each quadrant of the image
 
 3. Reconstructed Image:
 
@@ -117,5 +118,6 @@ Feel free to fork this repository and submit pull requests for improvements, suc
 
 
 This project is licensed under the MIT License. See `LICENSE` for details.
+
 
 
