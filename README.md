@@ -88,7 +88,15 @@ python Reconstruction.py --input_folder qr_codes/ --output reconstructed_image.p
 
 2. Generated QR Codes:
 
-![QR codes](Images/QR%20Codes/part_1.png)
+**QR Codes:**
+
+<p float="left">
+  <img src="Images/QR%20Codes/part_1.png" width="100" />
+  <img src="Images/QR%20Codes/part_2.pn" width="100" />
+  <img src="Images/QR%20Codes/part_3.pn" width="100" />
+  <img src="Images/QR%20Codes/part_4.pn" width="100" />
+</p>
+
 
 3. Reconstructed Image:
 
@@ -109,4 +117,5 @@ Feel free to fork this repository and submit pull requests for improvements, suc
 
 
 This project is licensed under the MIT License. See `LICENSE` for details.
+
 
