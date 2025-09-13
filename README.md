@@ -88,7 +88,7 @@ python Reconstruction.py --input_folder qr_codes/ --output reconstructed_image.p
 
 2. Generated QR Codes:
 
-![QR codes](images/QR%20Codes/part_1.png)
+![QR codes](Images/QR%20Codes/part_1.png)
 
 3. Reconstructed Image:
 
@@ -109,3 +109,4 @@ Feel free to fork this repository and submit pull requests for improvements, suc
 
 
 This project is licensed under the MIT License. See `LICENSE` for details.
+
